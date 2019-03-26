@@ -4,6 +4,11 @@
 
 <p style="font-size:8px;">  ## Edited by ``Yasmeen Alsaedy`` </p>
 
+
+
+
+
+
 -----------------------------------
 
 Inside Laravel folder run this **command-line** to install all the ``dependancies`` :
@@ -11,15 +16,26 @@ Inside Laravel folder run this **command-line** to install all the ``dependancie
 $ composer require twilio/sdk
 ```
 
+
+
+
+
 Then Go to **https://www.twilio.com** , create account and API get these information : 
 ```
-$ TWILIO_ACCOUNT_SID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+TWILIO_ACCOUNT_SID=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TWILIO_ACCOUNT_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TWILIO_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 TWILIO_API_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
+
+
+
+
+
 And put it inside the **.env file**.
+
+
 
  ---------------------------------------------------------------------------
  
